@@ -183,3 +183,17 @@
     }
   }
 }
+
+@media only screen and(max-width: 768px) {
+  .sidebar .sidebar-additional {
+    .detail-info .detail-item {
+      flex: 0 0 100%;
+
+      margin-bottom: 1.25rem;
+
+      &:nth-last-child(2) {
+        margin-bottom: 1.25rem;
+      }
+    }
+  }
+}
