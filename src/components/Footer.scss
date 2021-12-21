@@ -1,0 +1,11 @@
+@import "../styles/Scheme.scss";
+
+footer p {
+  font-size: 0.875rem;
+
+  margin-bottom: 0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+  color: $color-paragraph;
+}

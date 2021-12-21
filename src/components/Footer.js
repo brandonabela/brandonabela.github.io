@@ -1,15 +1,12 @@
 import React from 'react';
-import { Container, Row } from 'react-bootstrap';
+
+import './Footer.scss';
 
 
 function Footer() {
   return (
-    <footer>
-      <Container>
-        <Row className="text-center">
-          <p> Footer </p>
-        </Row>
-      </Container>
+    <footer className="text-center">
+      <p> © {new Date().getFullYear()} - Developed by <a href="https://github.com/brandonabela">Brandon Abela</a>. All rights reserved. </p>
     </footer>
   );
 }
