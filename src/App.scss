@@ -1,4 +1,59 @@
 @import "./styles/Scheme.scss";
 @import "~bootstrap/scss/bootstrap";
-
+@import "./styles/Cell.scss";
 @import "./styles/Typography.scss";
+
+body {
+  font-family: $font-family;
+  font-size: $font-base-size;
+  line-height: 1.65;
+
+  color: $color-paragraph;
+  background-color: $color-bg;
+}
+
+.gutter-top {
+  padding-top: 3.75rem;
+}
+
+.gutter-bottom {
+  padding-bottom: 3.75rem;
+}
+
+.box-outer {
+  border: 1px solid $color-border;
+  border-radius: $radius-20;
+  background-color: $color-surface-1;
+  -webkit-box-shadow: $box-shadow-24;
+  box-shadow: $box-shadow-24;
+}
+
+.text-overflow {
+  display: block;
+  overflow: hidden;
+
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+@media(min-width: 1400px) {
+  .container {
+    max-width: 1290px;
+  }
+}
+
+@media(min-width: 1300px) {
+  .container {
+    max-width: 1230px;
+  }
+}
+
+@media(min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+
+  .text-xl-center {
+    text-align: center !important;
+  }
+}

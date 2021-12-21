@@ -1,0 +1,68 @@
+[
+  {
+    "start": "Start 1",
+    "end": "End 1",
+    "role": "Role 1",
+    "company": "Employers 1",
+    "location": "Location 1",
+    "description": "Description 1",
+    "bullets": [
+      "Bullet 1A",
+      "Bullet 1B",
+      "Bullet 1C",
+      "Bullet 1D"
+    ],
+    "technologies": [
+      "Technologies 1A",
+      "Technologies 1B"
+    ]
+  },
+  {
+    "start": "Start 2",
+    "end": "End 2",
+    "role": "Role 2",
+    "company": "Employers 2",
+    "location": "Location 2",
+    "description": "Description 2",
+    "bullets": [
+      "Bullet 2A",
+      "Bullet 2B",
+      "Bullet 2C",
+      "Bullet 2D"
+    ],
+    "technologies": [
+      "Technologies 2A",
+      "Technologies 2B",
+      "Technologies 2C",
+      "Technologies 2D"
+    ]
+  },
+  {
+    "start": "Start 3",
+    "end": "End 3",
+    "role": "Role 3",
+    "company": "Employers 3",
+    "location": "Location 3",
+    "description": "Description 3",
+    "bullets": [
+      "Bullet 3A",
+      "Bullet 3B",
+      "Bullet 3C",
+      "Bullet 3D"
+    ],
+    "technologies": []
+  },
+  {
+    "start": "Start 4",
+    "end": "End 4",
+    "role": "Role 4",
+    "company": "Employers 4",
+    "location": "Location 4",
+    "description": "Description 4",
+    "bullets": [],
+    "technologies": [
+      "Technologies 4A",
+      "Technologies 4B"
+    ]
+  }
+]
