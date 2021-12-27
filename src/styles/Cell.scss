@@ -36,8 +36,10 @@
   background: $color-gradient-icon !important;
 }
 
-@media only screen and (max-width: 580px) {
+@media only screen and(max-width: 768px) {
   .btn {
-    font-size: 0.875rem !important;
+    font-size: 0.875rem;
+
+    padding: 0.625rem;
   }
 }

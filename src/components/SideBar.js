@@ -45,7 +45,7 @@ function SideBar() {
         </div>
 
         <Button className="box btn btn-sidebar d-xl-none" onClick={toggleContacts}>
-          { isShowContacts ? 'Hide Contacts' : 'Show Contacts' }
+          {isShowContacts ? 'Hide' : 'Show'} <span className='d-none d-sm-inline'> Contacts </span>
         </Button>
       </div>
 

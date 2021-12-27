@@ -2,6 +2,7 @@
 
 .sidebar {
   position: relative !important;
+
   padding: 1.875rem;
 }
 
@@ -188,13 +189,9 @@
 @media only screen and(max-width: 768px) {
   .sidebar .sidebar-main {
     .avatar {
-      width: 5rem;
-      height: 5rem;
+      width: 6rem;
+      height: 6rem;
       margin: 0 1rem 0 0;
-    }
-
-    .btn-sidebar {
-      padding: 0.625rem;
     }
   }
 
@@ -213,10 +210,16 @@
 
 @media screen and(max-width: 580px) {
   .sidebar {
+    margin-bottom: 1rem;
     padding: 0.9375rem;
   }
 
   .sidebar .sidebar-main {
+    .avatar {
+      width: 5rem;
+      height: 5rem;
+    }
+
     .title {
       font-size: 1.0625rem;
 
