@@ -8,7 +8,7 @@ function About() {
     <div className="box-outer">
       <Navigation />
 
-      <p> ABOUT </p>
+      <h1 className="page-title"> About Me </h1>
     </div>
   );
 }

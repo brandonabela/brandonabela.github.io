@@ -8,7 +8,7 @@ function Skills() {
     <div className="box-outer">
       <Navigation />
 
-      <p> SKILLS </p>
+      <h1 className="page-title"> Skills </h1>
     </div>
   );
 }

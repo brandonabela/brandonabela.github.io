@@ -8,7 +8,7 @@ function Portfolio() {
     <div className="box-outer">
       <Navigation />
 
-      <p> PORTFOLIO </p>
+      <h1 className="page-title"> Portfolio </h1>
     </div>
   );
 }

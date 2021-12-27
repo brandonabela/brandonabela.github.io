@@ -8,7 +8,7 @@ function Contact() {
     <div className="box-outer">
       <Navigation />
 
-      <p> CONTACT </p>
+      <h1 className="page-title"> Contact </h1>
     </div>
   );
 }
