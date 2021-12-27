@@ -3,14 +3,14 @@ import React from 'react';
 import Navigation from '../components/Navigation';
 
 
-function About() {
+function Portfolio() {
   return (
     <div className="box-outer">
       <Navigation />
 
-      <p> ABOUT </p>
+      <p> PORTFOLIO </p>
     </div>
   );
 }
 
-export default About;
+export default Portfolio;

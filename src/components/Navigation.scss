@@ -1,0 +1,89 @@
+@import "../styles/Scheme.scss";
+
+.navigation {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  height: 4rem;
+  padding: 0 2.375rem;
+
+  border: 1px solid $color-border;
+  border-radius: 0 $radius-20 0 $radius-20;
+  background: $color-surface-2;
+
+  ul {
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+
+    li {
+      margin-right: 2.75rem;
+
+      & a {
+        color: $color-paragraph;
+      }
+
+      &.active a {
+        background: $color-gradient-text;
+        -webkit-background-clip: text;
+        background-clip: text;
+
+        -webkit-text-fill-color: transparent;
+      }
+    }
+  }
+}
+
+@media only screen and(max-width: 1024px) {
+  .navigation {
+    position: fixed;
+    z-index: 1112;
+    top: auto;
+    bottom: 0;
+    left: 0;
+
+    justify-content: center;
+
+    width: 100%;
+    height: 3.8125rem;
+
+    border-radius: $radius-20 $radius-20 0 0;
+    background: rgba(43, 43, 44, 0.75);
+    box-shadow: $box-shadow-30;
+
+    backdrop-filter: blur(6px);
+  }
+}
+
+@media only screen and(max-width: 768px) {
+  .navigation {
+    font-size: 0.875rem;
+
+    ul li {
+      margin-right: 2rem;
+    }
+  }
+}
+
+@media only screen and(max-width: 512px) {
+  .navigation {
+    font-size: 0.6875rem;
+
+    height: 3rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+
+    border-radius: $radius-12 $radius-12 0 0;
+
+    ul li {
+      margin-right: 1.25rem;
+    }
+  }
+}

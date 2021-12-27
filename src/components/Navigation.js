@@ -1,81 +1,35 @@
 import React from 'react';
-import { Container, Row } from 'react-bootstrap';
+import { Link, useLocation } from 'react-router-dom';
+
+import './Navigation.scss';
 
 
 function Navigation() {
+  const links = [
+    { path: "/", text: "About" },
+    { path: "/resume", text: "Resume" },
+    { path: "/skills", text: "Skills" },
+    { path: "/portfolio", text: "Portfolio" },
+    { path: "/contact", text: "Contact" },
+  ];
+
+  const location = useLocation();
+  const { pathname } = location;
+  const splitLocation = pathname.split("/");
+
   return (
-    <header>
-      <Container>
-        <Row className="text-center">
-          <p> Navigation </p>
-          <p> Navigation </p>
-          <p> Navigation </p>
-          <p> Navigation </p>
-          <p> Navigation </p>
-          <p> Navigation </p>
-          <p> Navigation </p>
-          <p> Navigation </p>
-          <p> Navigation </p>
-          <p> Navigation </p>
-          <p> Navigation </p>
-          <p> Navigation </p>
-          <p> Navigation </p>
-          <p> Navigation </p>
-          <p> Navigation </p>
-          <p> Navigation </p>
-          <p> Navigation </p>
-          <p> Navigation </p>
-          <p> Navigation </p>
-          <p> Navigation </p>
-          <p> Navigation </p>
-          <p> Navigation </p>
-          <p> Navigation </p>
-          <p> Navigation </p>
-          <p> Navigation </p>
-          <p> Navigation </p>
-          <p> Navigation </p>
-          <p> Navigation </p>
-          <p> Navigation </p>
-          <p> Navigation </p>
-          <p> Navigation </p>
-          <p> Navigation </p>
-          <p> Navigation </p>
-          <p> Navigation </p>
-          <p> Navigation </p>
-          <p> Navigation </p>
-          <p> Navigation </p>
-          <p> Navigation </p>
-          <p> Navigation </p>
-          <p> Navigation </p>
-          <p> Navigation </p>
-          <p> Navigation </p>
-          <p> Navigation </p>
-          <p> Navigation </p>
-          <p> Navigation </p>
-          <p> Navigation </p>
-          <p> Navigation </p>
-          <p> Navigation </p>
-          <p> Navigation </p>
-          <p> Navigation </p>
-          <p> Navigation </p>
-          <p> Navigation </p>
-          <p> Navigation </p>
-          <p> Navigation </p>
-          <p> Navigation </p>
-          <p> Navigation </p>
-          <p> Navigation </p>
-          <p> Navigation </p>
-          <p> Navigation </p>
-          <p> Navigation </p>
-          <p> Navigation </p>
-          <p> Navigation </p>
-          <p> Navigation </p>
-          <p> Navigation </p>
-          <p> Navigation </p>
-          <p> Navigation </p>
-        </Row>
-      </Container>
-    </header >
+    <div className="navigation box-outer">
+      <ul>
+        {links.map((link, i) =>
+          <li
+            key={i}
+            className={splitLocation[1] === link.path.substr(1) ? "active" : ""}
+          >
+            <Link to={link.path}> {link.text} </Link>
+          </li>
+        )}
+      </ul>
+    </div>
   );
 }
 
