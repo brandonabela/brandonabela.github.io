@@ -57,3 +57,9 @@ body {
     text-align: center !important;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: $font-mobile-size !important;
+  }
+}
