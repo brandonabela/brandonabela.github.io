@@ -20,8 +20,31 @@
 
     border-radius: inherit;
     background: $color-btn !important;
-    background-color: $color-surface-3 !important;
   }
+}
+
+.box-outer {
+  position: relative;
+
+  padding: 1.875rem;
+
+  border: 1px solid $color-border;
+  border-radius: $radius-20;
+  background-color: $color-surface-1;
+  -webkit-box-shadow: $box-shadow-24;
+  box-shadow: $box-shadow-24;
+}
+
+.box-inner {
+  position: relative;
+
+  margin-bottom: 1.875rem;
+  padding: 1.5rem;
+
+  border-radius: $radius-16;
+  background: $color-gradient-border-gray;
+  -webkit-box-shadow: $box-shadow-50;
+  box-shadow: $box-shadow-50;
 }
 
 .btn:hover,
@@ -41,5 +64,12 @@
     font-size: 0.875rem;
 
     padding: 0.625rem;
+  }
+}
+
+@media only screen and(max-width: 580px) {
+  .box-outer,
+  .box-inner {
+    padding: 0.9375rem;
   }
 }

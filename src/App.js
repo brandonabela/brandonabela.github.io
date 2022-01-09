@@ -19,7 +19,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     <HashRouter>
-      <Container className="gutter-top gutter-bottom">
+      <Container fluid="xxl" className="gutter-top gutter-bottom">
         <Row>
           <Col md={12} xl={3}>
             <div className="sticky-md-top">
@@ -29,11 +29,11 @@ function App() {
 
           <Col md={12} xl={9}>
             <Switch>
-              <Route exact path="/" component={About}></Route>
-              <Route exact path="/resume" component={Resume}></Route>
-              <Route exact path="/skills" component={Skills}></Route>
-              <Route exact path="/portfolio" component={Portfolio}></Route>
-              <Route exact path="/contact" component={Contact}></Route>
+              <Route exact path="/" component={About} />
+              <Route exact path="/resume" component={Resume} />
+              <Route exact path="/skills" component={Skills} />
+              <Route exact path="/portfolio" component={Portfolio} />
+              <Route exact path="/contact" component={Contact} />
               <Route component={NotFound} />
             </Switch>
 

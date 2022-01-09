@@ -1,0 +1,29 @@
+{
+  "heading": [
+    "I am a software, game development, and machine learning enthusiast from Malta. My educational background consists of an M.Sc. in Machine Learning and Signal Processing and a B.Sc. in Computing Science. I was able to work in a variety of roles, including Data Science, Front End, Researcher, and Assistant Lecturer.",
+    "Throughout my educational and professional career, I have created a number of projects as part of my academic requirements or in my own time, some are available on Github. As an individual, I consider myself an outside-the-box thinker, funny, and naturally passionate about technology. I am a forward-thinker, and I could inspire people while working in a team."
+  ],
+  "types": [
+    {
+      "name": "Web Development",
+      "icon": "file-earmark-code-fill",
+      "description": "Responsive dashboards and productivity websites at high quality with the latest frameworks."
+    },
+    {
+      "name": "Software Development",
+      "icon": "cpu-fill",
+      "description": "Solving real-life problems through algorithmic solutions in a range of programming languages."
+    },
+    {
+      "name": "Machine Learning",
+      "icon": "robot",
+      "description": "Artificial applications to identify, analyse and predict patterns on data using advanced techniques."
+    },
+    {
+      "name": "Game Development",
+      "icon": "joystick",
+      "description": "Computer and mobile games in FPS and top-down styles, including level designs, graphics, and scripts."
+    }
+  ],
+  "employers": 6
+}

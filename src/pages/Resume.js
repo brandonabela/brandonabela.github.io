@@ -8,7 +8,7 @@ function Resume() {
     <div className="box-outer">
       <Navigation />
 
-      <h1 className="page-title"> Resume </h1>
+      <h1 className="page-header"> Resume </h1>
     </div>
   );
 }

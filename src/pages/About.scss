@@ -1,0 +1,71 @@
+@import "../styles/Scheme.scss";
+
+.about {
+  .case-item {
+    display: flex;
+
+    & > * {
+      min-width: 0;
+    }
+
+    i {
+      font-size: 2.5rem;
+
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+
+      margin-right: 1.1rem;
+    }
+
+    .case-details {
+      -webkit-box-flex: 1;
+      flex: 1;
+
+      h3 {
+        font-size: 1.125rem;
+
+        margin-bottom: 0.5rem;
+      }
+
+      p {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .carousel {
+    display: flex;
+    overflow-x: scroll;
+    flex-wrap: nowrap;
+
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+
+    &::-webkit-scrollbar {
+      height: 6px;
+
+      -webkit-appearance: none;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      border-radius: 16px;
+      background: $color-gradient;
+      box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+    }
+
+    img {
+      display: flex;
+      flex-direction: column;
+
+      min-width: 150px;
+      margin-right: 40px;
+
+      filter: grayscale(1);
+    }
+  }
+}

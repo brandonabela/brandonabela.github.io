@@ -1,6 +1,6 @@
 @import "./Scheme.scss";
 
-.page-title {
+.page-header {
   font-size: 2rem;
 
   position: relative;
@@ -23,8 +23,23 @@
   }
 }
 
+.page-subheader {
+  font-size: 1.5rem;
+
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.gutter-top {
+  padding-top: 3.75rem;
+}
+
+.gutter-bottom {
+  padding-bottom: 3.75rem;
+}
+
 @media only screen and(max-width: 580px) {
-  .page-title {
+  .page-header {
     font-size: 1.5rem;
 
     margin-bottom: 1.5rem;
@@ -35,5 +50,17 @@
       width: 1.875rem;
       height: 0.1875rem;
     }
+  }
+
+  .page-subheader {
+    font-size: 1.125rem;
+  }
+
+  .gutter-top {
+    padding-top: 0.9375rem;
+  }
+
+  .gutter-bottom {
+    padding-bottom: 2.5rem;
   }
 }

@@ -1,6 +1,7 @@
 @import "./styles/Scheme.scss";
 @import "~bootstrap/scss/bootstrap";
 @import "./styles/Cell.scss";
+@import "./styles/Icon.scss";
 @import "./styles/Page.scss";
 @import "./styles/Typography.scss";
 
@@ -13,26 +14,6 @@ body {
   background-color: $color-bg;
 }
 
-.gutter-top {
-  padding-top: 3.75rem;
-}
-
-.gutter-bottom {
-  padding-bottom: 3.75rem;
-}
-
-.box-outer {
-  position: relative;
-
-  padding: 1.875rem;
-
-  border: 1px solid $color-border;
-  border-radius: $radius-20;
-  background-color: $color-surface-1;
-  -webkit-box-shadow: $box-shadow-24;
-  box-shadow: $box-shadow-24;
-}
-
 .text-overflow {
   display: block;
   overflow: hidden;
@@ -41,44 +22,8 @@ body {
   text-overflow: ellipsis;
 }
 
-@media(min-width: 1400px) {
-  .container {
-    max-width: 1290px;
-  }
-}
-
-@media(min-width: 1300px) {
-  .container {
-    max-width: 1230px;
-  }
-}
-
-@media(min-width: 1200px) {
-  .container {
-    max-width: 1140px;
-  }
-
-  .text-xl-center {
-    text-align: center !important;
-  }
-}
-
-@media only screen and(max-width: 768px) {
+@media only screen and (max-width: 768px) {
   body {
     font-size: $font-mobile-size !important;
-  }
-}
-
-@media only screen and(max-width: 580px) {
-  .gutter-top {
-    padding-top: 0.9375rem;
-  }
-
-  .gutter-bottom {
-    padding-bottom: 2.5rem;
-  }
-
-  .box-outer {
-    padding: 0.9375rem;
   }
 }

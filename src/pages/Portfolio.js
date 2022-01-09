@@ -8,7 +8,7 @@ function Portfolio() {
     <div className="box-outer">
       <Navigation />
 
-      <h1 className="page-title"> Portfolio </h1>
+      <h1 className="page-header"> Portfolio </h1>
     </div>
   );
 }

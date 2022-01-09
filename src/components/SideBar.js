@@ -56,7 +56,7 @@ function SideBar() {
           <ul className="detail-info">
             <li className="detail-item">
               <span className="box icon-box">
-                <i className="bi bi-envelope"></i>
+                <i className="icon bi bi-envelope" />
               </span>
 
               <div className="contact-block">
@@ -67,7 +67,7 @@ function SideBar() {
 
             <li className="detail-item">
               <span className="box icon-box">
-                <i className="bi bi-phone"></i>
+                <i className="icon bi bi-phone" />
               </span>
 
               <div className="contact-block">
@@ -78,7 +78,7 @@ function SideBar() {
 
             <li className="detail-item">
               <span className="box icon-box">
-                <i className="bi bi-calendar-event"></i>
+                <i className="icon bi bi-calendar-event" />
               </span>
 
               <div className="contact-block">
@@ -89,7 +89,7 @@ function SideBar() {
 
             <li className="detail-item">
               <span className="box icon-box">
-                <i className="bi bi-geo-alt"></i>
+                <i className="icon bi bi-geo-alt" />
               </span>
 
               <div className="contact-block">
@@ -104,7 +104,7 @@ function SideBar() {
           <div className="socials">
             {socials.map((social, s_index) =>
               <a key={s_index} href={social.link}>
-                <i className={"bi bi-" + social.name}></i>
+                <i className={"bi bi-" + social.name} />
               </a>
             )}
           </div>

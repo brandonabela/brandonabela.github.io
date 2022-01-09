@@ -8,7 +8,7 @@ function Skills() {
     <div className="box-outer">
       <Navigation />
 
-      <h1 className="page-title"> Skills </h1>
+      <h1 className="page-header"> Skills </h1>
     </div>
   );
 }
