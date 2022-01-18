@@ -63,9 +63,12 @@
       flex-direction: column;
 
       min-width: 150px;
-      margin-right: 40px;
 
       filter: grayscale(1);
+
+      &:not(:last-child) {
+        margin-right: 40px;
+      }
     }
   }
 }
