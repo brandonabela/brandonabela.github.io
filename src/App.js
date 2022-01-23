@@ -8,7 +8,8 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 
 import SideBar from './components/SideBar';
 import About from './pages/About';
-import Resume from './pages/Resume';
+import Education from './pages/Education';
+import Work from './pages/Work';
 import Skills from './pages/Skills';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
@@ -30,7 +31,8 @@ function App() {
           <Col md={12} xl={9}>
             <Switch>
               <Route exact path="/" component={About} />
-              <Route exact path="/resume" component={Resume} />
+              <Route exact path="/education" component={Education} />
+              <Route exact path="/work" component={Work} />
               <Route exact path="/skills" component={Skills} />
               <Route exact path="/portfolio" component={Portfolio} />
               <Route exact path="/contact" component={Contact} />

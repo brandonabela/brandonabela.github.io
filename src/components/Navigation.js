@@ -7,7 +7,8 @@ import './Navigation.scss';
 function Navigation() {
   const links = [
     { path: "/", text: "About" },
-    { path: "/resume", text: "Resume" },
+    { path: "/education", text: "Education" },
+    { path: "/work", text: "Work" },
     { path: "/skills", text: "Skills" },
     { path: "/portfolio", text: "Portfolio" },
     { path: "/contact", text: "Contact" },

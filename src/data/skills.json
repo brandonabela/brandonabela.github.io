@@ -1,0 +1,161 @@
+[
+  {
+    "title": "Front End Development",
+    "icon": "bi-file-earmark-code-fill",
+    "overview": true,
+    "languages": [
+      "HTML",
+      "CSS",
+      "SCSS",
+      "JQuery",
+      "JavaScript",
+      "Typescript",
+      "P5.js",
+      "Bootbox.js",
+      "Angular Material UI",
+      "Bootstrap Framework",
+      "Angular JS",
+      "Angular CLI",
+      "React Framework",
+      "Web GL"
+    ],
+    "tools": [
+      "GitHub",
+      "GitFlow",
+      "WebStorm",
+      "brackets.io"
+    ]
+  },
+  {
+    "title": "Back End Development",
+    "icon": "bi-cloudy-fill",
+    "overview": false,
+    "languages": [
+      "PHP",
+      "ASP.NET",
+      "Node.js",
+      "Xslt",
+      "MySQL",
+      "Microsoft SQL Server",
+      "Microsoft SSIS",
+      "Ethereum Contracts"
+    ],
+    "tools": [
+      "GitHub",
+      "GitFlow",
+      "Visual Studio",
+      "WebStorm",
+      "Swagger",
+      "Postman",
+      "Azure DevOps",
+      "Azure Portal",
+      "IIS"
+    ]
+  },
+  {
+    "title": "Software Development",
+    "icon": "bi-code-slash",
+    "overview": true,
+    "languages": [
+      "Java",
+      "C",
+      "C#",
+      "C++",
+      "LLVM",
+      "Python",
+      "LaTeX",
+      "Specflow",
+      "MATLAB",
+      "VHDL"
+    ],
+    "tools": [
+      "GitHub",
+      "GitFlow",
+      "Source Tree",
+      "Jenkins",
+      "Xilinx",
+      "Wireshark",
+      "SPSS"
+    ]
+  },
+  {
+    "title": "Functional Languages",
+    "icon": "bi-broadcast-pin",
+    "overview": false,
+    "languages": [
+      "Haskell",
+      "Erlang",
+      "Golang"
+    ],
+    "tools": [
+      "Atom",
+      "Sublime Text"
+    ]
+  },
+  {
+    "title": "Machine Learning",
+    "icon": "bi-bar-chart-fill",
+    "overview": true,
+    "languages": [
+      "Open CV 2",
+      "TensorFlow",
+      "Keras",
+      "Scikit Learn",
+      "OpenAI Gym",
+      "Matplotlib"
+    ],
+    "tools": [
+      "Google Sheets",
+      "Microsoft Excel"
+    ]
+  },
+  {
+    "title": "Game Development",
+    "icon": "bi-joystick",
+    "overview": false,
+    "languages": [
+      "JavaScript (Unity)",
+      "C# (Unity)"
+    ],
+    "tools": [
+      "Unreal Engine",
+      "Unity",
+      "Visual Studio",
+      "MonoDevelop"
+    ]
+  },
+  {
+    "title": "3D Modeler",
+    "icon": "bi-badge-3d-fill",
+    "overview": false,
+    "languages": [
+      "Maya Embedded Language"
+    ],
+    "tools": [
+      "Autodesk 3ds Max",
+      "Autodesk Maya",
+      "Blender"
+    ]
+  },
+  {
+    "title": "Graphic Designer",
+    "icon": "bi-image-fill",
+    "overview": false,
+    "languages": [],
+    "tools": [
+      "Adobe Photoshop",
+      "Adobe Illustrator",
+      "Adobe InDesign"
+    ]
+  },
+  {
+    "title": "Video Editor",
+    "icon": "bi-camera-video-fill",
+    "overview": false,
+    "languages": [],
+    "tools": [
+      "Adobe After Effect",
+      "Adobe Premier Pro"
+    ]
+  }
+]
