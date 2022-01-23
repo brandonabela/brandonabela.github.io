@@ -1,0 +1,102 @@
+@import "../styles/Scheme.scss";
+
+.timeline-header {
+  display: flex;
+
+  margin-bottom: 1.25rem;
+
+  .box {
+    margin-right: 1rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+
+    margin: auto 0;
+  }
+}
+
+.timeline {
+  position: relative;
+
+  margin-top: 1.5rem;
+  padding-bottom: 2rem;
+  padding-left: 1.5rem;
+
+  &::before {
+    position: absolute;
+    top: -1.5rem;
+
+    height: 3.75rem;
+
+    content: '';
+
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: $color-border;
+  }
+
+  .timeline-item {
+    position: relative;
+
+    padding-left: 2.5rem;
+
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: $color-border;
+
+    &:not(:last-child) {
+      padding-bottom: 2rem;
+    }
+
+    &::before {
+      position: absolute;
+      top: 0.0625rem;
+      left: -0.3125rem;
+
+      width: 0.5625rem;
+      height: 0.5625rem;
+
+      content: '';
+
+      border-radius: 50%;
+      background: $color-gradient-text;
+      -webkit-box-shadow: $box-shadow-24;
+      box-shadow: $box-shadow-24;
+    }
+
+    .justify-content-between {
+      position: relative;
+      top: -0.3125rem;
+
+      p,
+      h6 {
+        line-height: 1.2;
+
+        margin: 0;
+      }
+    }
+
+    .location {
+      margin: 0;
+    }
+
+    p {
+      margin-top: 5px;
+      margin-bottom: 10px;
+    }
+
+    ul {
+      padding-left: 2rem;
+      padding-bottom: 1rem;
+
+      list-style-type: disc;
+    }
+
+    .badge {
+      margin-right: 6px;
+      margin-bottom: 12px;
+      padding: 7px 12px;
+    }
+  }
+}

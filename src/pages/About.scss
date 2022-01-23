@@ -66,6 +66,11 @@
 
       filter: grayscale(1);
 
+      &:hover,
+      &:focus {
+        filter: none;
+      }
+
       &:not(:last-child) {
         margin-right: 40px;
       }

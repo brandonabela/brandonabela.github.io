@@ -5,3 +5,24 @@
 
   -webkit-text-fill-color: transparent;
 }
+
+.icon-box {
+  font-size: 1.125rem;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 3rem;
+  height: 3rem;
+  margin-right: 1rem;
+}
+
+@media screen and(max-width: 580px) {
+  .icon-box {
+    font-size: 1rem;
+
+    width: 2.25rem;
+    height: 2.25rem;
+  }
+}

@@ -1,0 +1,101 @@
+[
+  {
+    "start": "2019",
+    "end": "2021",
+    "course": "Masters in Signal Processing and Machine Learning",
+    "institute": "University Of Malta",
+    "location": "Msida (Malta)",
+    "description": "The master program focuses on designing and implementing signal processing and machine learning solutions. Signal processing is the extraction and manipulation of information from signals using mathematical tools while machine learning is used to train models to find patterns in data.",
+    "bullets": [],
+    "technologies": [
+      "Python",
+      "LaTeX",
+      "MATLAB",
+      "Open CV 2",
+      "TensorFlow",
+      "Keras",
+      "Scikit Learn",
+      "OpenAI Gym",
+      "Matplotlib"
+    ]
+  },
+  {
+    "start": "2016",
+    "end": "2019",
+    "course": "Bachelor of Science (Honours) (Computing Science)",
+    "institute": "University Of Malta",
+    "location": "Msida (Malta)",
+    "description": "The Computing Science Degree programme focuses on giving scientific and practical skills for constructing, analysing, and maintaining complex software systems.",
+    "bullets": [],
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Node.js",
+      "MySQL",
+      "Ethereum Contracts",
+      "Java",
+      "C",
+      "C++",
+      "LLVM",
+      "LaTeX",
+      "Specflow",
+      "VHDL",
+      "MATLAB",
+      "Haskell",
+      "Erlang",
+      "Golang",
+      "GitHub",
+      "GitFlow",
+      "Jenkins",
+      "Xilinx",
+      "Wireshark",
+      "SPSS"
+    ]
+  },
+  {
+    "start": "2016",
+    "end": "2016",
+    "course": "Professional Diploma in Digital Marketing",
+    "institute": "Digital Marketing Institute",
+    "location": "Leinster (Ireland)",
+    "description": "The Diploma in Digital Marketing involved of 9 Modules which are:",
+    "bullets": [
+      "Introduction to Digital Marketing",
+      "Search Engine Optimisation",
+      "Pay Per Click Advertising",
+      "Email Marketing",
+      "Digital Display Marketing",
+      "Mobile Marketing",
+      "Social Media Marketing",
+      "Analytics",
+      "Strategy and Planning"
+    ],
+    "technologies": []
+  },
+  {
+    "start": "2014",
+    "end": "2016",
+    "course": "Post Secondary School",
+    "institute": "Giovanni Curmi Higher Secondary School",
+    "location": "Naxxar (Malta)",
+    "description": "",
+    "bullets": [
+      "A Levels - Computing, Pure Maths",
+      "Intermediates - Physics, Marketing, English, System Of Knowledge"
+    ],
+    "technologies": []
+  },
+  {
+    "start": "2009",
+    "end": "2014",
+    "course": "Secondary School",
+    "institute": "Saint Aloysius College",
+    "location": "Birkirkara (Malta)",
+    "description": "",
+    "bullets": [
+      "O Levels - Maltese, English, Maths, Physics, Religion, Computing, Graphical Communication, Sports Education, ECDL Standard Level"
+    ],
+    "technologies": []
+  }
+]
