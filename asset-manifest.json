@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.dbf8fd6a.chunk.css",
+    "main.css": "/static/css/main.d4c086bf.chunk.css",
     "main.js": "/static/js/main.53d98943.chunk.js",
     "main.js.map": "/static/js/main.53d98943.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a238988c.js",
@@ -10,7 +10,7 @@
     "static/js/2.cc9068cf.chunk.js.map": "/static/js/2.cc9068cf.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.cc038910.chunk.css.map": "/static/css/2.cc038910.chunk.css.map",
-    "static/css/main.dbf8fd6a.chunk.css.map": "/static/css/main.dbf8fd6a.chunk.css.map",
+    "static/css/main.d4c086bf.chunk.css.map": "/static/css/main.d4c086bf.chunk.css.map",
     "static/js/2.cc9068cf.chunk.js.LICENSE.txt": "/static/js/2.cc9068cf.chunk.js.LICENSE.txt",
     "static/media/bootstrap-icons.css": "/static/media/bootstrap-icons.38c4d249.woff",
     "static/media/index.css": "/static/media/poppins-latin-ext-400-normal.53f1614b.woff2"
@@ -19,7 +19,7 @@
     "static/js/runtime-main.a238988c.js",
     "static/css/2.cc038910.chunk.css",
     "static/js/2.cc9068cf.chunk.js",
-    "static/css/main.dbf8fd6a.chunk.css",
+    "static/css/main.d4c086bf.chunk.css",
     "static/js/main.53d98943.chunk.js"
   ]
 }
