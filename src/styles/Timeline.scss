@@ -87,8 +87,8 @@
     }
 
     ul {
-      padding-left: 2rem;
       padding-bottom: 1rem;
+      padding-left: 2rem;
 
       list-style-type: disc;
     }
@@ -97,6 +97,20 @@
       margin-right: 6px;
       margin-bottom: 12px;
       padding: 7px 12px;
+    }
+  }
+}
+
+@media screen and(max-width: 580px) {
+  .timeline {
+    padding-left: 1.1rem;
+
+    .timeline-item {
+      padding-left: 2rem;
+
+      ul {
+        padding-left: 1.5rem;
+      }
     }
   }
 }
