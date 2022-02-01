@@ -8,6 +8,7 @@
     "0g": "^0.0.6",
     "bootstrap": "^5.1.1",
     "bootstrap-icons": "^1.5.0",
+    "masonry-layout": "^4.2.2",
     "node-sass": "^6.0.1",
     "npm": "^8.2.0",
     "react": "^17.0.2",

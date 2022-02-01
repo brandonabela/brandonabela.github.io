@@ -1,39 +1,6 @@
 @import "../styles/Scheme.scss";
 
 .about {
-  .case-item {
-    display: flex;
-
-    & > * {
-      min-width: 0;
-    }
-
-    i {
-      font-size: 2.5rem;
-
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-
-      margin-right: 1.1rem;
-    }
-
-    .case-details {
-      -webkit-box-flex: 1;
-      flex: 1;
-
-      h3 {
-        font-size: 1.125rem;
-
-        margin-bottom: 0.5rem;
-      }
-
-      p {
-        margin-bottom: 0;
-      }
-    }
-  }
-
   .carousel {
     display: flex;
     overflow-x: scroll;

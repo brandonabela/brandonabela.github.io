@@ -37,9 +37,11 @@ function Work() {
               </ul>
             }
 
-            {experience.technologies.map((technology, k) =>
-              <Badge key={k} className="box"> {technology} </Badge>
-            )}
+            <div className="group-badges">
+              {experience.technologies.map((technology, k) =>
+                <Badge key={k} className="box"> {technology} </Badge>
+              )}
+            </div>
           </div>
         )}
       </div>

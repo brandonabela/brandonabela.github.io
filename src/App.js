@@ -4,6 +4,7 @@ import { HashRouter, Route, Switch } from "react-router-dom";
 
 import './App.scss';
 import '@fontsource/poppins';
+import 'masonry-layout/masonry';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
 import SideBar from './components/SideBar';

@@ -1,8 +1,7 @@
 [
   {
     "title": "Front End Development",
-    "icon": "bi-file-earmark-code-fill",
-    "overview": true,
+    "icon": "file-earmark-code-fill",
     "languages": [
       "HTML",
       "CSS",
@@ -22,14 +21,12 @@
     "tools": [
       "GitHub",
       "GitFlow",
-      "WebStorm",
-      "brackets.io"
+      "WebStorm"
     ]
   },
   {
     "title": "Back End Development",
-    "icon": "bi-cloudy-fill",
-    "overview": false,
+    "icon": "cloudy-fill",
     "languages": [
       "PHP",
       "ASP.NET",
@@ -54,8 +51,7 @@
   },
   {
     "title": "Software Development",
-    "icon": "bi-code-slash",
-    "overview": true,
+    "icon": "code-slash",
     "languages": [
       "Java",
       "C",
@@ -80,22 +76,19 @@
   },
   {
     "title": "Functional Languages",
-    "icon": "bi-broadcast-pin",
-    "overview": false,
+    "icon": "broadcast-pin",
     "languages": [
       "Haskell",
       "Erlang",
       "Golang"
     ],
     "tools": [
-      "Atom",
-      "Sublime Text"
+      "Atom"
     ]
   },
   {
     "title": "Machine Learning",
-    "icon": "bi-bar-chart-fill",
-    "overview": true,
+    "icon": "bar-chart-fill",
     "languages": [
       "Open CV 2",
       "TensorFlow",
@@ -111,8 +104,7 @@
   },
   {
     "title": "Game Development",
-    "icon": "bi-joystick",
-    "overview": false,
+    "icon": "joystick",
     "languages": [
       "JavaScript (Unity)",
       "C# (Unity)"
@@ -126,8 +118,7 @@
   },
   {
     "title": "3D Modeler",
-    "icon": "bi-badge-3d-fill",
-    "overview": false,
+    "icon": "badge-3d-fill",
     "languages": [
       "Maya Embedded Language"
     ],
@@ -139,8 +130,7 @@
   },
   {
     "title": "Graphic Designer",
-    "icon": "bi-image-fill",
-    "overview": false,
+    "icon": "image-fill",
     "languages": [],
     "tools": [
       "Adobe Photoshop",
@@ -150,8 +140,7 @@
   },
   {
     "title": "Video Editor",
-    "icon": "bi-camera-video-fill",
-    "overview": false,
+    "icon": "camera-video-fill",
     "languages": [],
     "tools": [
       "Adobe After Effect",

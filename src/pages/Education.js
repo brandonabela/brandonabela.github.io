@@ -37,9 +37,11 @@ function Education() {
               </ul>
             }
 
-            {education.technologies.map((technology, k) =>
-              <Badge key={k} className="box"> {technology} </Badge>
-            )}
+            <div className="group-badges">
+              {education.technologies.map((technology, k) =>
+                <Badge key={k} className="box"> {technology} </Badge>
+              )}
+            </div>
           </div>
         )}
       </div>

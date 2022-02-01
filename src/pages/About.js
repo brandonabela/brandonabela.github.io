@@ -3,8 +3,8 @@ import { Col, Image, Row } from 'react-bootstrap';
 
 import './About.scss';
 import about from '../data/about.json';
-import Navigation from '../components/Navigation';
 import Carousel from '../components/Carousel';
+import Navigation from '../components/Navigation';
 
 
 function About() {
