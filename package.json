@@ -8,12 +8,12 @@
     "0g": "^0.0.6",
     "bootstrap": "^5.1.1",
     "bootstrap-icons": "^1.5.0",
-    "masonry-layout": "^4.2.2",
     "node-sass": "^6.0.1",
     "npm": "^8.2.0",
     "react": "^17.0.2",
     "react-bootstrap": "^1.6.4",
     "react-dom": "^17.0.2",
+    "react-masonry-css": "^1.0.16",
     "react-router-dom": "^5.2.0",
     "react-scripts": "^4.0.3",
     "web-vitals": "^1.1.2"
