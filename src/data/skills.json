@@ -20,8 +20,7 @@
     ],
     "tools": [
       "GitHub",
-      "GitFlow",
-      "WebStorm"
+      "GitFlow"
     ]
   },
   {
@@ -40,8 +39,6 @@
     "tools": [
       "GitHub",
       "GitFlow",
-      "Visual Studio",
-      "WebStorm",
       "Swagger",
       "Postman",
       "Azure DevOps",
@@ -82,9 +79,7 @@
       "Erlang",
       "Golang"
     ],
-    "tools": [
-      "Atom"
-    ]
+    "tools": []
   },
   {
     "title": "Machine Learning",
@@ -111,9 +106,7 @@
     ],
     "tools": [
       "Unreal Engine",
-      "Unity",
-      "Visual Studio",
-      "MonoDevelop"
+      "Unity"
     ]
   },
   {
