@@ -11,7 +11,7 @@ import Navigation from '../components/Navigation';
 function Skills() {
   const breakpoint = {
     default: 2,
-    768: 2
+    768: 1
   };
 
   return (
