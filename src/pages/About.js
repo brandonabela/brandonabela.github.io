@@ -3,14 +3,15 @@ import { Col, Image, Row } from 'react-bootstrap';
 
 import './About.scss';
 import about from '../data/about.json';
+
 import Carousel from '../components/Carousel';
 import Navigation from '../components/Navigation';
 
 
 function About() {
-  const employers_path = Array.from({ length: about.employers }, (_, i) => {
-    return "./images/Employers/Employer_" + String(i + 1).padStart(3, '0') + ".jpg"
-  }).reverse();
+  const employers_path = Array.from({ length: about.employers }).map((_, i) =>
+    "./images/Employers/Employer_" + String(i + 1).padStart(3, '0') + ".jpg"
+  ).reverse();
 
   Carousel('.carousel');
 

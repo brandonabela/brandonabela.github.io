@@ -1,46 +1,15 @@
 @import "../styles/Scheme.scss";
 
 .about {
-  .carousel {
-    display: flex;
-    overflow-x: scroll;
-    flex-wrap: nowrap;
+  .carousel img {
+    height: auto;
+    min-width: 150px;
 
-    padding-top: 0.5rem;
-    padding-bottom: 1rem;
+    filter: grayscale(1);
 
-    -webkit-overflow-scrolling: touch;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-
-    &::-webkit-scrollbar {
-      height: 6px;
-
-      -webkit-appearance: none;
-    }
-
-    &::-webkit-scrollbar-thumb {
-      border-radius: 16px;
-      background: $color-gradient;
-      box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
-    }
-
-    img {
-      display: flex;
-      flex-direction: column;
-
-      min-width: 150px;
-
-      filter: grayscale(1);
-
-      &:hover,
-      &:focus {
-        filter: none;
-      }
-
-      &:not(:last-child) {
-        margin-right: 40px;
-      }
+    &:hover,
+    &:focus {
+      filter: none;
     }
   }
 }

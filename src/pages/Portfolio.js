@@ -3,27 +3,18 @@ import { Button, Col, Dropdown, Image, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 import './Portfolio.scss';
-import Navigation from '../components/Navigation';
-import projects from '../data/projects.json';
+import UtilText from '../utils/UtilText';
+import UtilProject from '../utils/UtilProject';
+
 import skills from '../data/skills.json';
+import projects from '../data/projects.json';
+import Navigation from '../components/Navigation';
 
 
 function Portfolio() {
   const [filter, setFilter] = useState('All');
 
-  projects.forEach(function (project) {
-    // Get skill group for each technology and remove blanks
-    let technologyGroups = project.technologies.map(t =>
-      skills.map(s => [...s.languages, ...s.tools].includes(t) ? s.title : '').filter(Boolean)
-    );
-
-    // Get Unique Values set of technologies
-    project['skillGroup'] = [...new Set(...technologyGroups)];
-  });
-
-  function snakeCase(projectName) {
-    return projectName.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join('');
-  }
+  projects.forEach(project => UtilProject.addSkillGroup(project));
 
   return (
     <div className="box-outer">
@@ -70,7 +61,7 @@ function Portfolio() {
                 <div className="gallery-image">
                   <Image
                     alt={project.name.toLowerCase().replaceAll(' ', '_')}
-                    src={"./images/Projects/" + snakeCase(project.name) + "01.jpg"}
+                    src={"./images/Projects/" + UtilText.snakeCase(project.name) + "01.jpg"}
                   />
 
                   <div className="gallery-overlay">
@@ -82,10 +73,7 @@ function Portfolio() {
 
                 <div className="gallery-caption">
                   <h3> {project.name} </h3>
-
-                  <p>
-                    {project.skillGroup.join(', ')}
-                  </p>
+                  <p> {project.skillGroup.join(', ')} </p>
                 </div>
               </div>
 

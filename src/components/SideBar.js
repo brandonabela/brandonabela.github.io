@@ -54,45 +54,45 @@ function SideBar() {
           <div className="separator" />
 
           <ul className="detail-info">
-            <li className="detail-item">
+            <li className="icon-group">
               <span className="box icon-box">
                 <i className="icon bi bi-envelope" />
               </span>
 
-              <div className="contact-block">
+              <div className="icon-text">
                 <span className="overhead"> Email </span>
                 <a className="text-overflow" href={"mailto:" + profile.email} title={profile.email}> {profile.email} </a>
               </div>
             </li>
 
-            <li className="detail-item">
+            <li className="icon-group">
               <span className="box icon-box">
                 <i className="icon bi bi-phone" />
               </span>
 
-              <div className="contact-block">
+              <div className="icon-text">
                 <span className="overhead"> Phone </span>
                 <span className="text-overflow"> {profile.phone} </span>
               </div>
             </li>
 
-            <li className="detail-item">
+            <li className="icon-group">
               <span className="box icon-box">
                 <i className="icon bi bi-calendar-event" />
               </span>
 
-              <div className="contact-block">
+              <div className="icon-text">
                 <span className="overhead"> Birthday </span>
                 <span className="text-overflow"> {profile.birthday} </span>
               </div>
             </li>
 
-            <li className="detail-item">
+            <li className="icon-group">
               <span className="box icon-box">
                 <i className="icon bi bi-geo-alt" />
               </span>
 
-              <div className="contact-block">
+              <div className="icon-text">
                 <span className="overhead"> Location </span>
                 <span className="text-overflow"> {profile.location} </span>
               </div>

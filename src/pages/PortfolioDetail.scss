@@ -1,0 +1,67 @@
+@import "../styles/Scheme.scss";
+
+.backLink {
+  color: $color-paragraph;
+
+  &:hover,
+  &:focus {
+    color: $color-accent;
+  }
+
+  i {
+    margin-right: 0.5rem;
+  }
+}
+
+.project-header {
+  position: relative;
+
+  margin-top: 1.5rem;
+  margin-bottom: 2.5rem;
+
+  h1 {
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    left: 0;
+
+    margin-bottom: 1.5rem;
+  }
+
+  .project-image-wrapper {
+    position: relative;
+
+    height: 25rem;
+    margin-right: -1.875rem;
+    margin-left: -1.875rem;
+
+    &::before {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+
+      width: 100%;
+      height: 25%;
+
+      content: '';
+
+      background-image: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.7) 100%);
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+
+      object-fit: cover;
+    }
+  }
+}
+
+.carousel {
+  margin-top: 2.375rem;
+
+  img {
+    height: 19.6875rem;
+    max-width: 35rem;
+  }
+}

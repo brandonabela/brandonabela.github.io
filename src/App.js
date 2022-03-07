@@ -24,9 +24,7 @@ function App() {
       <Container fluid="xxl" className="gutter-top gutter-bottom">
         <Row>
           <Col md={12} xl={3}>
-            <div className="sticky-md-top">
-              <SideBar />
-            </div>
+            <SideBar />
           </Col>
 
           <Col md={12} xl={9}>

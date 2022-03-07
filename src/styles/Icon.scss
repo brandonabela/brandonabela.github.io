@@ -51,6 +51,49 @@
   }
 }
 
+.icon-group {
+  font-size: 0.875rem;
+
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 1.75rem;
+
+  color: $color-heading;
+
+  & > * {
+    min-width: 0;
+  }
+
+  .icon-text {
+    -webkit-box-flex: 1;
+    flex: 1;
+
+    .overhead {
+      font-size: 0.75rem;
+      font-weight: 400;
+
+      display: block;
+
+      text-transform: uppercase;
+
+      opacity: 0.7;
+      color: $color-paragraph;
+    }
+
+    a,
+    p {
+      margin-bottom: 0;
+
+      text-decoration: none;
+
+      color: $color-heading;
+
+      -webkit-text-fill-color: inherit;
+    }
+  }
+}
+
 @media screen and(max-width: 580px) {
   .icon-box {
     font-size: 1rem;
