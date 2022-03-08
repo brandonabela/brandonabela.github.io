@@ -15,6 +15,7 @@ import Portfolio from './pages/Portfolio';
 import PortfolioDetail from './pages/PortfolioDetail';
 import Contact from './pages/Contact';
 import NotFound from './pages/NotFound';
+import ScrollUp from './components/ScrollUp';
 import Footer from './components/Footer';
 
 
@@ -38,6 +39,8 @@ function App() {
               <Route exact path="/contact" component={Contact} />
               <Route component={NotFound} />
             </Switch>
+
+            <ScrollUp />
 
             <Footer />
           </Col>

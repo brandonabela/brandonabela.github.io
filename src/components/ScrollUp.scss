@@ -1,0 +1,14 @@
+@import "../styles/Scheme.scss";
+
+.scrollUp {
+  position: fixed;
+  z-index: 15;
+  right: 2.5rem;
+  bottom: 2.5rem;
+
+  border-radius: 0.25rem;
+
+  i {
+    font-size: 1.5rem;
+  }
+}
