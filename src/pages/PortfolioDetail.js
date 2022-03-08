@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Col, Image, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
@@ -29,7 +29,9 @@ function PortfolioDetail({ match }) {
   const [modalOpen, setModalOpen] = useState(false);
   const [modalIndex, setModalIndex] = useState(0);
 
-  Carousel('.carousel');
+  useEffect(() => {
+    Carousel();
+  });
 
   return (
     <div className="box-outer">

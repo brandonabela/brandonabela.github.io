@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Col, Image, Row } from 'react-bootstrap';
 
 import './About.scss';
@@ -13,7 +13,9 @@ function About() {
     "./images/Employers/Employer_" + String(i + 1).padStart(3, '0') + ".jpg"
   ).reverse();
 
-  Carousel('.carousel');
+  useEffect(() => {
+    Carousel();
+  });
 
   return (
     <div className="about box-outer">
