@@ -1,4 +1,7 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import ReactGA from 'react-ga4';
+
+import { createBrowserHistory } from "history";
 import { Container, Row, Col } from 'react-bootstrap';
 import { HashRouter, Route, Switch } from "react-router-dom";
 
@@ -20,6 +23,19 @@ import Footer from './components/Footer';
 
 
 function App() {
+  ReactGA.initialize("UA-58651161-1");
+
+  // Initial Page Hit
+  useEffect(() => {
+    ReactGA.send({ hitType: "pageview", page: window.location.pathname + window.location.hash });
+  });
+
+  // User Navigation
+  const history = createBrowserHistory();
+  history.listen(location => {
+    ReactGA.send({ hitType: "pageview", page: location.pathname + location.hash });
+  });
+
   return (
     <HashRouter>
       <Container fluid="xxl" className="gutter-top gutter-bottom">
