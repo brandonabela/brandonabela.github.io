@@ -1,31 +1,12 @@
 [
   {
-    "start": "Febuary 2018",
-    "end": "Febuary 2018",
-    "name": "Logo Replication",
-    "description": [
-      "The aim of this task was to see how close I can replicate a design which someone else designed with some creative choices. In such a task it allowed me to replicate a logo designed for the desired resolution."
-    ],
-    "technologies": [
-      "Adobe Photoshop"
-    ],
-    "buttons": [
-      {
-        "text": "Visit Portfolio Website",
-        "link": "https://brandonabela.gitlab.io"
-      }
-    ],
-    "videos": [],
-    "images": 3
-  },
-  {
     "start": "October 2017",
     "end": "March 2018",
     "name": "Brandon Portfolio Website",
     "description": [
-      "The aim of this task was to develop a website which acts as a portfolio which consists information that is typically found in a CV together with work that I have worked on which are in the Portfolio section of the website. The duration of this work was around 5 months which resize based on the resolution of the device (responsive website).",
-      "The front end of the website was built using the AngularJS framework together with the Bootstrap Framework while using standard languages such as HTML, CSS and Javascript. Whereas the backend of the website was built using JQuery and PHP.",
-      "The website consists of a vast number of features such as an email contact system for when a user would like to contact me. An example of the email received could be shown in the slideshow below. Another feature implemented is the portfolio filtering which hides and shows items based on certain criteria such as showing items which are based on websites or game development."
+      "The objective of this project was to create a portfolio website that showcases my CV information and work portfolio. The development process took approximately 5 months and involved creating a responsive website that adjusts its size according to the device resolution.",
+      "The frontend of the website was constructed using AngularJS and Bootstrap frameworks, along with HTML, CSS, and JavaScript. The backend was created using JQuery and PHP.",
+      "The website features various capabilities, such as an email contact system, which allows users to reach out to me. The email received can be seen in the carousel. Another key feature is the portfolio filtering, which displays or hides items based on criteria such as website development or game development."
     ],
     "technologies": [
       "HTML",
@@ -44,8 +25,8 @@
     "end": "January 2018",
     "name": "Chess Game in Java",
     "description": [
-      "In this task, a Chess Game Analysis was built which takes a text file with a number of commands which could consist of invalid moves. Which then based on this text file a number of analytics where generated such as the most move piece, the winning player and the number of invalid moves.",
-      "Based on the text file a graphical game state is presented. The chess logic consists of castling and pawn promotion. This task educated me in using a number of designs pattern such as the observer design pattern while keeping every method with a single responsive method."
+      "This task involved creating a Chess Game Analysis that processes a text file containing moves, some of which may be invalid. From this text file, various analytics were generated, including the most frequently moved piece, the winning player, and the number of invalid moves.",
+      "The text file was used to present a graphical representation of the game state. The chess logic incorporated features like castling and pawn promotion. The project taught me to utilize design patterns such as the observer pattern and to ensure that each method has a single, clear purpose."
     ],
     "technologies": [
       "Java"
@@ -59,9 +40,7 @@
     "end": "January 2018",
     "name": "LegOOPolis in C++",
     "description": [
-      "In this task a Lego Building Simulation was built in C++ which takes a text file with a number of specification such as the number of lego blocks, windows or doors available and also specifying the number of buildings needed such as 5 universities and 3 one story house buildings which inside the program it is defined that a university required x amount of blocks.",
-      "In such a task it allowed me to experiment object orient programming and writing a linked list library. It also allowed me to design software in such a way that a number of classes were developed like a library which can be used in other projects without modifying anything like the linked list using templates.",
-      "Then, based on the file specification a number of statistics were calculated such as the number of buildings that were successfully built and the percentage built from the text file specification."
+      "A C++-based Lego Building Simulator was developed to process specifications from a text file, including the number of lego blocks, windows, doors, and the number of required buildings (e.g. 5 universities and 3 one-story houses). This task enabled experimentation with object-oriented programming and creation of a linked list library. Several classes were designed for reuse, such as a templated linked list library. The simulation then calculated statistics based on the file specifications, including the number of successfully built buildings and the percentage built from the text file."
     ],
     "technologies": [
       "C++"
@@ -75,11 +54,11 @@
     "end": "January 2018",
     "name": "Algorithms in Golang",
     "description": [
-      "To learn the Golang language a number of algorithms were programmed such as:",
-      "Fibonacci function using direct recursion and indirect recursion. Reverse function using an iterative manner but using a temporary variable to loop through half the array.",
-      "Map function which applies a function on every value in a given list such as applying multiplyBy2 on [5, 2, 7] returns the array [10, 4, 14]. The Filter function filters a given list based on a boolean function such as applying the function isEven on [2, 7, 4] returns [2, 4]. The Reduce function which returns a single value which reflections a combined version of a given list such as using addition function on [5, 3, 7] returns 15.",
-      "After getting familiar with the syntax of GoLang, a number of programs were implemented using channels. While I was using channels I started to see the power of channels in a concurrent system. Some of the functions that were implemented using channels are:",
-      "The tail function takes a channel of values and the first value is discarded while the others are pushed into an output channel which when then read it will give the tail of the passed array. The Fibonacci function takes an output channel since every time the output channel is called another Fibonacci value is generated. The Fibonacci function makes use of another method which makes use of channels using other channels. Such as the Prefix function which takes a value and pushes this value at the head of the channel."
+      "To learn the Go programming language, several algorithms were programmed, including:",
+      "The Fibonacci function using both direct and indirect recursion. The Reverse function, which was implemented using an iterative approach with a temporary variable to loop through half the array.",
+      "The Map function, which applies a specified function to each value in a list (e.g. applying multiplyBy2 to [5, 2, 7] returns [10, 4, 14]). The Filter function, which filters a list based on a boolean function (e.g. applying the isEven function to [2, 7, 4] returns [2, 4]). The Reduce function, which returns a single value that reflects the combined version of a list (e.g. using the addition function on [5, 3, 7] returns 15).",
+      "Once familiar with the Go syntax, several programs were implemented using channels. Through the use of channels, the power of concurrent systems became evident. Some of the functions implemented using channels include:",
+      "The Tail function, which takes a channel of values and discards the first value while pushing the rest into an output channel, resulting in the tail of the passed array when read. The Fibonacci function, which takes an output channel and generates a Fibonacci value each time the output channel is called. This function also makes use of another method that uses channels within channels, such as the Prefix function, which takes a value and pushes it at the head of the channel."
     ],
     "technologies": [
       "Golang"
@@ -93,10 +72,10 @@
     "end": "November 2017",
     "name": "Mobile Network Simulation",
     "description": [
-      "In this task, a telecommunication network system was developed using the Erlang Language. The system is made of 3 Major Modules that are a switch, server generic and mobile. Also, a utility module was developed which handles standard functions such as fetch, store and remove function based on a given list. The modules created in this task take care of error handling that occurs in the program.",
-      "The switch handles subscribing, unsubscribing, attaching and detaching a phone and sending a message to another phone. A phone can be registered using the scribe but to attach the phone to the switch you will need to call the attach function method.",
-      "The server generic handles the type of transmission type such as synchronised and synchronised calls. Also, handles the main loop for the program, which based on program certain functions are executed.",
-      "The mobile module takes care instantiating a mobile, terminating a phone process, switching on, switching off a phone, toggling flight mode, sending messages and reading messages. When a phone has the flight mode on the messages sent to that phone process are received."
+      "A telecommunication network system was developed using Erlang Language, consisting of 3 major modules: switch, server generic, and mobile. Additionally, a utility module was created to handle standard functions such as fetching, storing, and removing based on a list. These modules also handle error handling in the program.",
+      "The switch manages tasks such as subscribing and unsubscribing phones, attaching and detaching them, and sending messages. To attach a phone to the switch, you need to call the attach function method after registering the phone through subscribing.",
+      "The server generic manages transmission types such as synchronous and asynchronous calls, and controls the main loop of the program where certain functions are executed.",
+      "The mobile module handles tasks like instantiating a mobile, terminating a phone process, turning it on and off, toggling flight mode, sending and reading messages. If a phone's flight mode is on, messages sent to that phone are received."
     ],
     "technologies": [
       "Erlang"
@@ -110,10 +89,11 @@
     "end": "September 2017",
     "name": "Image Processing in Haskell",
     "description": [
-      "A number of algorithms were developed in Haskell in aid of learning the programming language. These algorithms were more based on image processing.",
-      "The first few algorithms started off by using a library to be able to have certain data structures such as RGB and the processing was done on a pixel by pixel manner. Some of the algorithms developed are flip vertically, darken, desaturate, selective desaturate which based on a given colour it saturates or the other colours and makes that colour standard out especially if there is an object having the same colour.",
-      "Then function composition assisted in creating a function based that takes a pixel and performs a certain behaviour. A number of algorithms were developed such as flip vertically, redden, desaturate, fade, superposition a number of images on each other and defining a new operator that can be used within the program to superposition a number of images.",
-      "After understanding these principles data structures were used and also allowed me to create that structure that takes a colour structure and convert it to RGB or vice versa by the assist of other specific data structures such as HSV to RGB. The algorithms developed are recolour based on a certain function. The inverse, desaturate based on HSV colour and inverse RGB  are all based on a data structure commonly used in compression which splits the image into quadrants and if the quadrant does not consist of the same colour the quadrant is split again until a block of the same colour is present. Which this data structure is then used to create an optimised version of a given image. Another data structure developed was the colour model which takes a colour of any type and has a number of functions such as reddening, brighten based on this colour format. Then a number of instances of this data structure were created to have specific instances of this data structure such as HSV and RGB."
+      "A set of algorithms were developed in Haskell to learn the programming language, mainly focused on image processing.",
+      "The initial algorithms used a library to access data structures such as RGB and processed images pixel by pixel. Some of the algorithms developed include flipping images vertically, darkening, desaturating, and selective desaturating, which enhances a specific colour in an image.",
+      "Function composition was then utilized to create functions that take a pixel and perform specific actions. A number of algorithms were developed, including flipping images vertically, redden, desaturate, fade, superimposing multiple images, and defining a new operator to superimpose images.",
+      "With further understanding of these principles, data structures were utilized to create a structure that converts colour structures to RGB or vice versa, using specific data structures such as HSV to RGB. Algorithms were developed to recolour images based on a function, desaturate based on HSV colour, and invert RGB. These algorithms used a data structure commonly used in compression, which divides an image into quadrants and continues to split them until blocks of the same colour are found. This data structure was used to create an optimized version of an image.",
+      "Another data structure developed was the colour model, which takes a colour of any type and has functions to brighten and redden it. Instances of this data structure were created for specific colour formats such as HSV and RGB."
     ],
     "technologies": [
       "Haskell"
@@ -127,10 +107,10 @@
     "end": "May 2017",
     "name": "System Console in C",
     "description": [
-      "In this task, a system console was developed in C on the Linux operating system. The developed system console is made up of 3 parts.",
-      "One of the sections of the system console is the clock which functions by forking a child process from the parent process and this process is responsible for updating the shared memory segment, which the main program tread reads this memory segment. This allows for the main process to just update the panel based on the values in the shared memory segment.",
-      "Another part of the system console is responsible for catching signals which are being generated by another program. Every signal received a time is recorded and the difference between two signals is calculated. Based on the time difference a colour is lit. The other process is able to signal this process by using the process ID which the ID is unique every time the receiver program is opened which in this task it is shown at the bottom of the respective panel.",
-      "The major part of the system console is the terminal window which uses the Linux system as an intermediate communication between the written program and the user. However, some additional functions are written within the program such as the ability to write the response of a command into the desired text file. It also allows for scrolling within the window such as writing move -5 allows the window to scroll 5 lines upwards. The application uses the standard Linux commands such as ps gives a list of running processes which the result is shown in the respective panel."
+      "A system console was developed in C on the Linux operating system, consisting of three parts.",
+      "One section of the console is the clock, which operates by creating a child process from the parent process. This process updates a shared memory segment, which the main program reads, allowing the main process to update the panel based on the memory segment's values.",
+      "Another part of the console catches signals generated by another program. Every received signal is recorded, and the time difference between two signals is calculated. A colour is lit based on the time difference. The other process can signal this process using the unique process ID, displayed at the bottom of the panel.",
+      "The main part of the console is the terminal window, using Linux as an intermediary between the program and the user. Additional functions were written into the program, such as writing the command response to a desired text file and scrolling within the window using commands like \"move -5\". The application uses standard Linux commands, such as \"ps\", to display a list of running processes in the respective panel."
     ],
     "technologies": [
       "C"
@@ -144,9 +124,8 @@
     "end": "January 2017",
     "name": "Tree Data Structure in C",
     "description": [
-      "A tree data structure was built which consists of standard optimizations such as adding, deleting and editing a node from the tree. These operations were built as a library which can be used in other projects which consist in similar behaviour. The benefit of building such a data structure was that it allowed me to have an insight of having the required methods and the desired parameters.",
-      "The tree data structure was then developed to be able to store a number of text files. Where a node can either be a folder or a text file which if the node is a text file it can have no children meaning that it would mean that the node is a leave whereas a folder acts a parent which can hold a number of nodes.",
-      "For completeness, the program was developed to support saving and loading the data structure. This was helpful for allowing the user to store the data structure on their computer and loaded back and continue editing the tree data structure."
+      "I built a tree data structure with standard optimizations for adding, deleting, and editing nodes. These functions were packaged as a library for use in other projects with similar requirements. The advantage of this data structure was the availability of necessary methods and desired parameters.",
+      "The tree structure was designed to store text files, where a node can be either a folder or a text file. If the node is a text file, it has no children and is considered a leaf. A folder serves as a parent and can hold multiple nodes. Additionally, the program was designed to support saving and loading the data structure, allowing the user to store it on their computer and resume editing later."
     ],
     "technologies": [
       "C"
@@ -160,11 +139,11 @@
     "end": "January 2017",
     "name": "Algorithms in C",
     "description": [
-      "A number of the algorithm were developed with the aim of learning the C programming language.",
-      "One of these algorithms was to read a number of lines which was given from the program arguments where the program had a predefined location of the text file. Then every read line was displayed to the user. Another similar program was the tail program which uses the program arguments it sets the number of lines that are going to be read from the end of the text file.",
-      "Another algorithm that was implemented was the tokenizer program which based on a given predefined location of a text file it would be tokenized based on certain conditions. Such as special characters would be ignored, integers and floats are considered as tokens and stored separately and strings and things which are enclosed with a corner bracket are stored as strings.",
-      "An algorithm that helped in thinking in a recursive manner was reversing a given string using an iterative approach or a recursive approach. The introspect program helped in exploring how the memory system works in the C programming languages which most languages do not give such insight into the memory. It was seen that a given string was stored as a block of memory, in fact, the memory locations were incremented by one for every character.",
-      "The Levenshtein String Distance program was implemented which calculates the minimum number of edits that a string needs to have to be converted into another string. This algorithm is a common algorithm especially used in data structures and algorithms."
+      "A set of algorithms were developed to learn the C programming language.",
+      "One of the algorithms was to read a specified number of lines from a text file, given as program arguments, and display each line to the user. Another similar program was the \"tail\" program which, using program arguments, sets the number of lines to be read from the end of the text file.",
+      "The \"tokenizer\" program was also implemented. Based on a predefined location of a text file, it tokenized the text based on certain conditions. For example, special characters were ignored, integers and floats were considered separate tokens, and strings and elements enclosed in brackets were stored as strings.",
+      "An algorithm to think in a recursive manner was the reversal of a given string, either using an iterative or recursive approach. The \"introspect\" program helped to understand the memory system in the C programming language, which many languages do not provide such insight into. It was observed that a given string was stored as a block of memory, with memory locations incremented by one for each character.",
+      "Finally, the \"Levenshtein String Distance\" program was implemented, which calculates the minimum number of edits required to convert one string into another. This algorithm is commonly used in data structures and algorithms."
     ],
     "technologies": [
       "C"
@@ -178,9 +157,9 @@
     "end": "October 2015",
     "name": "Garage Scene",
     "description": [
-      "This task involved using a number of application varying from Maya, Photoshop and Quixel NDO toolkit to create specular and normal maps. Although this was not my first time using this software it allowed me to experiment more with lighting and mapping which can be seen in the slideshow below.",
-      "The scene tasks place in a garage which consists of a running robot together with an Audi R8 car. These objects were modelled in such a way which would allow me to use these models in a game once this scene was done and rendered. With regards to rendering techniques, the Maya Mental Ray plugin was used which allowed for more detailed complex textures and also more refinement in the render settings such as sampling quality and global illumination.",
-      "This task also involved in creating a rig for the robot to be able to run which then the animation was used in the game. It also allowed me to modify the curve animation to create a robot like animation without having any acceleration at the ends and to have a smooth transition when looping."
+      "This task involved using various applications, including Maya, Photoshop, and Quixel NDO toolkit, to create specular and normal maps. Although I was familiar with the software, this gave me the opportunity to explore lighting and mapping more, as seen in the carousel.",
+      "The scene was set in a garage, featuring a running robot and an Audi R8 car. The models were designed to be usable in a game once the scene was finished and rendered. The Maya Mental Ray plugin was used for rendering, providing detailed textures and refined render settings, such as sampling quality and global illumination.",
+      "Additionally, this task involved creating a rig for the robot to run and using the animation in the game. It also allowed me to modify the curve animation for a robot-like movement without acceleration at the ends and a smooth looping transition."
     ],
     "technologies": [
       "Autodesk Maya"
@@ -196,8 +175,8 @@
     "end": "July 2015",
     "name": "Tower Shape",
     "description": [
-      "In this task, a mobile game was developed together with a logo to be used on Google Play Store. The objects and backgrounds designed in this scene were designed in such a way while keeping in mind the target device. Photoshop and Unity were used to develop the game.",
-      "The game uses responsive UI and touch screen to play in the game. The major challenge of this task was to use a database from different platforms and add the new high score or download the top 5 players high score. This was a challenge since from the device it accesses the database and performs a certain SQL query."
+      "This task involved developing a mobile game along with a logo for the Google Play Store. The objects and backgrounds were created with the target device in mind, using Photoshop and Unity.",
+      "The game features a responsive UI and touch screen for gameplay. The biggest challenge was integrating a database from various platforms to add new high scores or download the top 5 player scores. This required accessing the database from the device and executing specific SQL queries."
     ],
     "technologies": [
       "JavaScript (Unity)"
@@ -213,9 +192,9 @@
     "end": "May 2015",
     "name": "Litter Monster",
     "description": [
-      "The game was developed as a product for the young enterprise which it was marketed as an educational game. It aims to educate young children about the environment through a pop-up window and only if the correct answer is chosen. While I was developing this game I had the opportunity experiment with marketing campaigns, also pitching this game to the minister of education and write a business proposal.",
-      "While the product was being sold, it allowed me to receive feedback about the game even though I had given the game to other people to test it before. Educational game is trying to be introduced in schools in attempt that students will start playing game and be educated in the usual way.",
-      "While making the game I had to design logos which where different than usual since I had to produce what people were thinking and produce the idea digitally. A number of logos were designed with a number of variation such as the colour which was shown to the team and then one logo was chosen."
+      "This game was created as a product for a youth enterprise and marketed as an educational tool for children. Its goal is to educate kids about the environment through pop-up questions that only advance if the correct answer is selected. During the development process, I was able to experiment with marketing strategies, pitch the game to the Minister of Education, and draft a business proposal.",
+      "As the product was sold, I received feedback about the game, even though it was tested by others before release. The goal is to introduce this educational game in schools to educate students in a fun and interactive way.",
+      "I also designed logos for the game, which required a creative approach to capturing the intended concept digitally. Several logos were created with different colour variations and were presented to the team before selecting the final one."
     ],
     "technologies": [
       "C# (Unity)"

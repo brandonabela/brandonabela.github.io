@@ -1,28 +1,28 @@
 {
   "heading": [
-    "I am a software, game development, and machine learning enthusiast from Malta. My educational background consists of an M.Sc. in Machine Learning and Signal Processing and a B.Sc. in Computing Science. I was able to work in a variety of roles, including Data Science, Front End, Researcher, and Assistant Lecturer.",
-    "Throughout my educational and professional career, I have created a number of projects as part of my academic requirements or in my own time, some are available on Github. As an individual, I consider myself an outside-the-box thinker, funny, and naturally passionate about technology. I am a forward-thinker, and I could inspire people while working in a team."
+    "I am a tech enthusiast from Malta with a passion for software development, game design, and machine learning. I hold an M.Sc. in Machine Learning and Signal Processing and a B.Sc. in Computing Science. My diverse experience includes roles in Data Science, Front End Development, Research, and Assistant Lecturing.",
+    "I have a track record of delivering successful projects, both for academic purposes and personal initiatives. Some of my works can be found on Github. I am a creative problem-solver, known for my sense of humour, and a genuine love for technology. I possess a forward-thinking mentality and have a talent for inspiring and motivating others in a team setting."
   ],
   "types": [
     {
       "name": "Web Development",
       "icon": "file-earmark-code-fill",
-      "description": "Responsive dashboards and productivity websites at high quality with the latest frameworks."
+      "description": "Creation of high-quality, responsive dashboards and productivity websites using state-of-the-art frameworks."
     },
     {
       "name": "Software Development",
       "icon": "cpu-fill",
-      "description": "Solving real-life problems through algorithmic solutions in a range of programming languages."
+      "description": "Utilisation of algorithmic solutions to tackle real-world issues with proficiency in multiple programming languages."
     },
     {
       "name": "Machine Learning",
       "icon": "robot",
-      "description": "Artificial applications to identify, analyse and predict patterns on data using advanced techniques."
+      "description": "Development of artificial applications that employ advanced techniques to identify, analyse, and forecast patterns in data."
     },
     {
       "name": "Game Development",
       "icon": "joystick",
-      "description": "Computer and mobile games in FPS and top-down styles, including level designs, graphics, and scripts."
+      "description": "Design and development of both first-person shooter and top-down computer and mobile games, including level design, graphics, and scripting."
     }
   ],
   "employers": 6

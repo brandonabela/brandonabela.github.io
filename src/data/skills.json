@@ -42,8 +42,7 @@
       "Swagger",
       "Postman",
       "Azure DevOps",
-      "Azure Portal",
-      "IIS"
+      "Azure Portal"
     ]
   },
   {
@@ -89,12 +88,19 @@
       "TensorFlow",
       "Keras",
       "Scikit Learn",
+      "SciPy",
       "OpenAI Gym",
-      "Matplotlib"
+      "Streamlit",
+      "Selenium",
+      "Beautiful Soup",
+      "Matplotlib",
+      "Pyvis"
     ],
     "tools": [
+      "Microsoft Power BI",
       "Google Sheets",
-      "Microsoft Excel"
+      "Microsoft Excel",
+      "Microsoft SharePoint"
     ]
   },
   {
