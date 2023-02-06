@@ -52,7 +52,10 @@ function Portfolio() {
       <Row>
         {[filter === "All" ? projects : projects.filter(p =>
           p.skillGroup.includes(filter))
-        ].flat().map((project, p_index) =>
+        ]
+        .flat()
+        .sort((a, b) => Date.parse(Date.parse(new Date(b.end)) - new Date(a.end)))
+        .map((project, p_index) =>
 
           <Col lg={4} md={6} sm={12} key={p_index}>
             <Link to={"/portfolio/" + project.name.toLowerCase().replace(/\s+/g, '-')}>
