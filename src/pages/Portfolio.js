@@ -16,6 +16,9 @@ function Portfolio() {
 
   projects.forEach(project => UtilProject.addSkillGroup(project));
 
+  const projectSkills = [...new Set(projects.map(project => project.skillGroup).flat())];
+  const pageFilters = skills.filter(x => projectSkills.indexOf(x.title) > 0).map(skill => skill.title);
+
   return (
     <div className="box-outer">
       <Navigation />
@@ -28,7 +31,7 @@ function Portfolio() {
         </Dropdown.Toggle>
 
         <Dropdown.Menu>
-          {['All', ...skills.map(skill => skill.title)].map((s_filter, index) =>
+          {['All', ...pageFilters].map((s_filter, index) =>
             <Dropdown.Item key={index} onClick={() => setFilter(s_filter)}>
               {s_filter}
             </Dropdown.Item>
@@ -37,7 +40,7 @@ function Portfolio() {
       </Dropdown>
 
       <ul className="filter-list">
-        {['All', ...skills.map(skill => skill.title)].map((s_filter, index) =>
+        {['All', ...pageFilters].map((s_filter, index) =>
           <li key={index}>
             <Button
               className={"filter-item " + (filter === s_filter ? "active" : "")}
