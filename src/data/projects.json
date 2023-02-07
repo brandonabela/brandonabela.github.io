@@ -1,8 +1,184 @@
 [
   {
+    "start": "December 2022",
+    "end": "January 2023",
+    "name": "Malta Property Analysis",
+    "description": [
+      "This project aims to find the best real estate investment opportunities in Malta by comparing and ranking properties for sale with similar rental properties. Key features such as location, price, and rental yield are analyzed to identify the highest potential return on investment.",
+      "A comprehensive dataset is compiled by scraping multiple real estate agency websites, including Alliance, Belair, Ben Estates, Dhalia, Frank Salt, Remax, Sara Grech, Quicklets and Zanzi. The selenium python package and multithreading were used to efficiently compile the data and provide a thorough understanding of the property market in the area.",
+      "Data was collected through multi-threaded scraping and processed to eliminate variations in wording, fill missing values, and calculate the correlation between features and price. The results showed that Remax, Frank Salt, and Zanzi had the most properties for sale, while Sliema had the most rental listings. The sale price was positively correlated with the number of bedrooms, bathrooms, and external area, while the rent price had no correlation with the features analysed.",
+      "The data of sale and rental listings are aggregated based on certain columns to compute various median values such as area, price, etc. The final output has 1868 unique groups. The financial metric cash on cash return was calculated and used to rank the top 5 groups with the highest value. The top 5 sales listings are houses of character in Zebbug, Zejtun, and Birkirkara with varying bedrooms and bathrooms, chosen based on their potential profitability."
+    ],
+    "technologies": [
+      "Python",
+      "Selenium",
+      "Beautiful Soup",
+      "SciPy"
+    ],
+    "buttons": [
+      {
+        "text": "Repository",
+        "link": "https://github.com/brandonabela/Malta-Property-Analysis"
+      }
+    ],
+    "videos": [],
+    "images": 3
+  },
+  {
+    "start": "July 2020",
+    "end": "June 2021",
+    "name": "Stylesheet Comb Formatter",
+    "description": [
+      "This extension offers a comprehensive solution for formatting stylesheets for CSS, LESS, SCSS, and SASS, improving readability through formatting and property grouping. The implementation involves building a parser for the stylesheet and utilizing an abstract syntax tree to interpret each command accurately.",
+      "The properties are then sorted and grouped with their corresponding style family, resulting in a clear and organized layout. With over 600 downloads, the extension can be easily installed through the VS Code extensions marketplace by searching for \"Stylesheet Formatting Extension\"."
+    ],
+    "technologies": [
+      "Typescript"
+    ],
+    "buttons": [
+      {
+        "text": "Repository",
+        "link": "https://github.com/brandonabela/vscode-stylesheet-comb"
+      },
+      {
+        "text": "Extension Marketplace",
+        "link": "https://marketplace.visualstudio.com/items?itemName=BrandonAbela.vscode-stylesheet-comb"
+      }
+    ],
+    "videos": [],
+    "images": 2
+  },
+  {
+    "start": "December 2021",
+    "end": "March 2022",
+    "name": "Brandon Portfolio Website Third",
+    "description": [
+      "This portfolio website provides a comprehensive overview of skills and accomplishments, showcasing work experience, education, and personal projects through images, reference links, and detailed descriptions. Built with ReactJS, React Bootstrap and NodeJS, the website offers a multi-page layout and is fully responsive, ensuring optimal viewing on any device. The website is styled with React-Bootstrap and SCSS, offering easy customization of colors."
+    ],
+    "technologies": [
+      "Bootstrap Framework",
+      "React Framework",
+      "SCSS"
+    ],
+    "buttons": [
+      {
+        "text": "Repository",
+        "link": "https://github.com/brandonabela/brandonabela.github.io"
+      }
+    ],
+    "videos": [],
+    "images": 2
+  },
+  {
+    "start": "June 2021",
+    "end": "December 2021",
+    "name": "JSON Portfolio Website",
+    "description": [
+      "This project creates a visually engaging, professional portfolio website using the ReactJS and Bootstrap 5 frameworks. Information such as work experience, education, and project details are sourced from JSON files, providing an easy way to update and maintain the site. The website is responsive, adapting to various screen sizes, and is automatically deployed with each commit made to the project.",
+      "Key features include the ability to showcase projects through carousels, links, and videos, define personal biography and social media links, and support for education, work, projects, and contact sections. The website is customizable by adjusting the number of entries in the JSON files for education, experience, skills, and projects, as long as the structure remains the same."
+    ],
+    "technologies": [
+      "Bootstrap Framework",
+      "React Framework",
+      "SCSS"
+    ],
+    "buttons": [
+      {
+        "text": "Repository",
+        "link": "https://github.com/brandonabela/json-portfolio"
+      }
+    ],
+    "videos": [],
+    "images": 3
+  },
+  {
+    "start": "November 2021",
+    "end": "December 2021",
+    "name": "Data Science Apps",
+    "description": [
+      "This project showcases various data science applications using the scikit-learn library and the Streamlit framework for interactive visualization. The apps cover simple usage of Streamlit, data exploration, classification, and regression on standard machine learning datasets, as well as additional datasets such as the SP500 and cryptocurrency markets."
+    ],
+    "technologies": [
+      "Python",
+      "Streamlit",
+      "Matplotlib"
+    ],
+    "buttons": [
+      {
+        "text": "Repository",
+        "link": "https://github.com/brandonabela/data-science-apps"
+      }
+    ],
+    "videos": [],
+    "images": 4
+  },
+  {
+    "start": "July 2021",
+    "end": "July 2021",
+    "name": "Game Of Life",
+    "description": [
+      "The Game of Life is a cellular automaton simulation that takes place on a grid. In this simulation, each cell can be in one of two states: alive or dead. The state of the cells is updated in each generation based on a set of predefined rules, which are based on the number of live cells surrounding each cell.",
+      "This project extends the original simulation by adding several new features. One of these features is the ability to load and save different board configurations and patterns, allowing for greater flexibility and customization using Swing-based user interface. Additionally, the project includes the ability to control the speed of the simulation by adjusting the frames per second (FPS), providing a smoother and more dynamic viewing experience."
+    ],
+    "technologies": [
+      "Java"
+    ],
+    "buttons": [
+      {
+        "text": "Repository",
+        "link": "https://github.com/brandonabela/Game-Of-Life"
+      }
+    ],
+    "videos": [],
+    "images": 5
+  },
+  {
+    "start": "July 2019",
+    "end": "October 2020",
+    "name": "8 Ball Pool Analysis",
+    "description": [
+      "This is project analyses 8 ball pool footage from Miniclip. It identifies potential ball potting paths and provides an animated visualization. The tool uses OpenCV for image processing, combined with vector algebra and graph logic.",
+      "The tool can be run from the command-line and has adjustable settings depending on the video input. The default ball and hole sizes are optimized for 1080p displays with 100% zoom and scaling, and may need adjustments for different video resolutions or zoom settings."
+    ],
+    "technologies": [
+      "Python",
+      "Open CV 2",
+      "Selenium",
+      "Matplotlib"
+    ],
+    "buttons": [
+      {
+        "text": "Repository",
+        "link": "https://github.com/brandonabela/8-Ball-Pool-Analysis"
+      }
+    ],
+    "videos": [],
+    "images": 4
+  },
+  {
+    "start": "May 2018",
+    "end": "May 2018",
+    "name": "Triangle Paths",
+    "description": [
+      "The project is aimed at finding the minimum path of numbers arranged in the form of a triangle. The process starts at the top of the triangle and moves to adjacent numbers in the row below. The solution is found by using a more efficient approach than brute force, which checks every possible path. The program takes a text file as input and computes the minimum path, which is returned along with its cost.",
+      "Before performing the minimum path calculation, the program performs several validations, such as checking if the text file contains letters or if the source file is provided with the command. An example of the program finding the minimum path is also given."
+    ],
+    "technologies": [
+      "C++"
+    ],
+    "buttons": [
+      {
+        "text": "Repository",
+        "link": "https://github.com/brandonabela/Triangle-Paths"
+      }
+    ],
+    "videos": [],
+    "images": 1
+  },
+  {
     "start": "October 2017",
     "end": "March 2018",
-    "name": "Brandon Portfolio Website",
+    "name": "Brandon Portfolio Website Second",
     "description": [
       "The objective of this project was to create a portfolio website that showcases my CV information and work portfolio. The development process took approximately 5 months and involved creating a responsive website that adjusts its size according to the device resolution.",
       "The frontend of the website was constructed using AngularJS and Bootstrap frameworks, along with HTML, CSS, and JavaScript. The backend was created using JQuery and PHP.",
@@ -16,7 +192,12 @@
       "Bootstrap Framework",
       "Angular JS"
     ],
-    "buttons": [],
+    "buttons": [
+      {
+        "text": "Website",
+        "link": "https://brandonabela.gitlab.io/"
+      }
+    ],
     "videos": [],
     "images": 4
   },
