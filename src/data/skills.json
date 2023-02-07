@@ -94,7 +94,8 @@
       "Selenium",
       "Beautiful Soup",
       "Matplotlib",
-      "Pyvis"
+      "Pyvis",
+      "Plotly"
     ],
     "tools": [
       "Microsoft Power BI",
