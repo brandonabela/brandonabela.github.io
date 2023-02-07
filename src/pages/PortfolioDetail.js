@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Col, Image, Row } from 'react-bootstrap';
+import { Badge, Col, Image, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 import './PortfolioDetail.scss';
@@ -89,7 +89,7 @@ function PortfolioDetail({ match }) {
 
             <div className="icon-text">
               <span className="overhead"> Technologies </span>
-              <p className='text-overlap'> {project.technologies.slice(-3).join(', ')} </p>
+              <p className='text-overlap'> {project.technologies.join(', ')} </p>
             </div>
           </div>
         </Col>
@@ -98,6 +98,14 @@ function PortfolioDetail({ match }) {
       {project.description.map((paragraph, i) =>
         <p key={i}> {paragraph} </p>
       )}
+
+      <div className="group-badges">
+        {project.buttons.map((button, i) =>
+          <Badge key={i} className="box btn project-buttons">
+            <a href={button.link}> { button.text } </a>
+          </Badge>
+        )}
+      </div>
 
       <div className="carousel">
         {project.imagePaths.map((image, i) =>
