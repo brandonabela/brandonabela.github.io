@@ -9,7 +9,7 @@
     "bullets": [
       "Managed the bank's Customer Risk Assessment and Enterprise-Wide Business Risk Assessment.",
       "Conducted data collection and analysis, simulations, and annual reviews for the AFC Unit.",
-      "Developed a Big Data Lake containing customer information and transactions, and constructed Power BI reports using the data."
+      "Developed a Data Lake containing customer information and transactions, and constructed Power BI reports using the data."
     ],
     "technologies": [
       "Python",
@@ -43,7 +43,7 @@
     "location": "Malta",
     "description": "",
     "bullets": [
-      "Conducted research and developed a drone path planning algorithm utilizing cliff photogrammetry and 3D axis movement."
+      "Conducted research and developed a drone path planning algorithm utilising cliff photogrammetry and 3D axis movement."
     ],
     "technologies": [
       "Python",

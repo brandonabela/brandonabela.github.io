@@ -4,7 +4,7 @@
     "end": "January 2023",
     "name": "Malta Property Analysis",
     "description": [
-      "This project aims to find the best real estate investment opportunities in Malta by comparing and ranking properties for sale with similar rental properties. Key features such as location, price, and rental yield are analyzed to identify the highest potential return on investment.",
+      "This project aims to find the best real estate investment opportunities in Malta by comparing and ranking properties for sale with similar rental properties. Key features such as location, price, and rental yield are analysed to identify the highest potential return on investment.",
       "A comprehensive dataset is compiled by scraping multiple real estate agency websites, including Alliance, Belair, Ben Estates, Dhalia, Frank Salt, Remax, Sara Grech, Quicklets and Zanzi. The selenium python package and multithreading were used to efficiently compile the data and provide a thorough understanding of the property market in the area.",
       "Data was collected through multi-threaded scraping and processed to eliminate variations in wording, fill missing values, and calculate the correlation between features and price. The results showed that Remax, Frank Salt, and Zanzi had the most properties for sale, while Sliema had the most rental listings. The sale price was positively correlated with the number of bedrooms, bathrooms, and external area, while the rent price had no correlation with the features analysed.",
       "The data of sale and rental listings are aggregated based on certain columns to compute various median values such as area, price, etc. The final output has 1868 unique groups. The financial metric cash on cash return was calculated and used to rank the top 5 groups with the highest value. The top 5 sales listings are houses of character in Zebbug, Zejtun, and Birkirkara with varying bedrooms and bathrooms, chosen based on their potential profitability."
@@ -29,8 +29,8 @@
     "end": "June 2021",
     "name": "Stylesheet Comb Formatter",
     "description": [
-      "This extension offers a comprehensive solution for formatting stylesheets for CSS, LESS, SCSS, and SASS, improving readability through formatting and property grouping. The implementation involves building a parser for the stylesheet and utilizing an abstract syntax tree to interpret each command accurately.",
-      "The properties are then sorted and grouped with their corresponding style family, resulting in a clear and organized layout. With over 600 downloads, the extension can be easily installed through the VS Code extensions marketplace by searching for \"Stylesheet Formatting Extension\"."
+      "This extension offers a comprehensive solution for formatting stylesheets for CSS, LESS, SCSS, and SASS, improving readability through formatting and property grouping. The implementation involves building a parser for the stylesheet and utilising an abstract syntax tree to interpret each command accurately.",
+      "The properties are then sorted and grouped with their corresponding style family, resulting in a clear and organised layout. With over 600 downloads, the extension can be easily installed through the VS Code extensions marketplace by searching for \"Stylesheet Formatting Extension\"."
     ],
     "technologies": [
       "Typescript"
@@ -53,7 +53,7 @@
     "end": "March 2022",
     "name": "Brandon Portfolio Website Third",
     "description": [
-      "This portfolio website provides a comprehensive overview of skills and accomplishments, showcasing work experience, education, and personal projects through images, reference links, and detailed descriptions. Built with ReactJS, React Bootstrap and NodeJS, the website offers a multi-page layout and is fully responsive, ensuring optimal viewing on any device. The website is styled with React-Bootstrap and SCSS, offering easy customization of colors."
+      "This portfolio website provides a comprehensive overview of skills and accomplishments, showcasing work experience, education, and personal projects through images, reference links, and detailed descriptions. Built with ReactJS, React Bootstrap and NodeJS, the website offers a multi-page layout and is fully responsive, ensuring optimal viewing on any device. The website is styled with React-Bootstrap and SCSS, offering easy customisation of colors."
     ],
     "technologies": [
       "Bootstrap Framework",
@@ -75,7 +75,7 @@
     "name": "JSON Portfolio Website",
     "description": [
       "This project creates a visually engaging, professional portfolio website using the ReactJS and Bootstrap 5 frameworks. Information such as work experience, education, and project details are sourced from JSON files, providing an easy way to update and maintain the site. The website is responsive, adapting to various screen sizes, and is automatically deployed with each commit made to the project.",
-      "Key features include the ability to showcase projects through carousels, links, and videos, define personal biography and social media links, and support for education, work, projects, and contact sections. The website is customizable by adjusting the number of entries in the JSON files for education, experience, skills, and projects, as long as the structure remains the same."
+      "Key features include the ability to showcase projects through carousels, links, and videos, define personal biography and social media links, and support for education, work, projects, and contact sections. The website is customisable by adjusting the number of entries in the JSON files for education, experience, skills, and projects, as long as the structure remains the same."
     ],
     "technologies": [
       "Bootstrap Framework",
@@ -96,7 +96,7 @@
     "end": "December 2021",
     "name": "Data Science Apps",
     "description": [
-      "This project showcases various data science applications using the scikit-learn library and the Streamlit framework for interactive visualization. The apps cover simple usage of Streamlit, data exploration, classification, and regression on standard machine learning datasets, as well as additional datasets such as the SP500 and cryptocurrency markets."
+      "This project showcases various data science applications using the scikit-learn library and the Streamlit framework for interactive visualisation. The apps cover simple usage of Streamlit, data exploration, classification, and regression on standard machine learning datasets, as well as additional datasets such as the SP500 and cryptocurrency markets."
     ],
     "technologies": [
       "Python",
@@ -118,7 +118,7 @@
     "name": "Game Of Life",
     "description": [
       "The Game of Life is a cellular automaton simulation that takes place on a grid. In this simulation, each cell can be in one of two states: alive or dead. The state of the cells is updated in each generation based on a set of predefined rules, which are based on the number of live cells surrounding each cell.",
-      "This project extends the original simulation by adding several new features. One of these features is the ability to load and save different board configurations and patterns, allowing for greater flexibility and customization using Swing-based user interface. Additionally, the project includes the ability to control the speed of the simulation by adjusting the frames per second (FPS), providing a smoother and more dynamic viewing experience."
+      "This project extends the original simulation by adding several new features. One of these features is the ability to load and save different board configurations and patterns, allowing for greater flexibility and customisation using Swing-based user interface. Additionally, the project includes the ability to control the speed of the simulation by adjusting the frames per second (FPS), providing a smoother and more dynamic viewing experience."
     ],
     "technologies": [
       "Java"
@@ -137,8 +137,8 @@
     "end": "October 2020",
     "name": "8 Ball Pool Analysis",
     "description": [
-      "This is project analyses 8 ball pool footage from Miniclip. It identifies potential ball potting paths and provides an animated visualization. The tool uses OpenCV for image processing, combined with vector algebra and graph logic.",
-      "The tool can be run from the command-line and has adjustable settings depending on the video input. The default ball and hole sizes are optimized for 1080p displays with 100% zoom and scaling, and may need adjustments for different video resolutions or zoom settings."
+      "This is project analyses 8 ball pool footage from Miniclip. It identifies potential ball potting paths and provides an animated visualisation. The tool uses OpenCV for image processing, combined with vector algebra and graph logic.",
+      "The tool can be run from the command-line and has adjustable settings depending on the video input. The default ball and hole sizes are optimised for 1080p displays with 100% zoom and scaling, and may need adjustments for different video resolutions or zoom settings."
     ],
     "technologies": [
       "Python",
@@ -207,7 +207,7 @@
     "name": "Chess Game in Java",
     "description": [
       "This task involved creating a Chess Game Analysis that processes a text file containing moves, some of which may be invalid. From this text file, various analytics were generated, including the most frequently moved piece, the winning player, and the number of invalid moves.",
-      "The text file was used to present a graphical representation of the game state. The chess logic incorporated features like castling and pawn promotion. The project taught me to utilize design patterns such as the observer pattern and to ensure that each method has a single, clear purpose."
+      "The text file was used to present a graphical representation of the game state. The chess logic incorporated features like castling and pawn promotion. The project taught me to utilise design patterns such as the observer pattern and to ensure that each method has a single, clear purpose."
     ],
     "technologies": [
       "Java"
@@ -272,8 +272,8 @@
     "description": [
       "A set of algorithms were developed in Haskell to learn the programming language, mainly focused on image processing.",
       "The initial algorithms used a library to access data structures such as RGB and processed images pixel by pixel. Some of the algorithms developed include flipping images vertically, darkening, desaturating, and selective desaturating, which enhances a specific colour in an image.",
-      "Function composition was then utilized to create functions that take a pixel and perform specific actions. A number of algorithms were developed, including flipping images vertically, redden, desaturate, fade, superimposing multiple images, and defining a new operator to superimpose images.",
-      "With further understanding of these principles, data structures were utilized to create a structure that converts colour structures to RGB or vice versa, using specific data structures such as HSV to RGB. Algorithms were developed to recolour images based on a function, desaturate based on HSV colour, and invert RGB. These algorithms used a data structure commonly used in compression, which divides an image into quadrants and continues to split them until blocks of the same colour are found. This data structure was used to create an optimized version of an image.",
+      "Function composition was then utilised to create functions that take a pixel and perform specific actions. A number of algorithms were developed, including flipping images vertically, redden, desaturate, fade, superimposing multiple images, and defining a new operator to superimpose images.",
+      "With further understanding of these principles, data structures were utilised to create a structure that converts colour structures to RGB or vice versa, using specific data structures such as HSV to RGB. Algorithms were developed to recolour images based on a function, desaturate based on HSV colour, and invert RGB. These algorithms used a data structure commonly used in compression, which divides an image into quadrants and continues to split them until blocks of the same colour are found. This data structure was used to create an optimised version of an image.",
       "Another data structure developed was the colour model, which takes a colour of any type and has functions to brighten and redden it. Instances of this data structure were created for specific colour formats such as HSV and RGB."
     ],
     "technologies": [
@@ -305,7 +305,7 @@
     "end": "January 2017",
     "name": "Tree Data Structure in C",
     "description": [
-      "I built a tree data structure with standard optimizations for adding, deleting, and editing nodes. These functions were packaged as a library for use in other projects with similar requirements. The advantage of this data structure was the availability of necessary methods and desired parameters.",
+      "I built a tree data structure with standard optimisations for adding, deleting, and editing nodes. These functions were packaged as a library for use in other projects with similar requirements. The advantage of this data structure was the availability of necessary methods and desired parameters.",
       "The tree structure was designed to store text files, where a node can be either a folder or a text file. If the node is a text file, it has no children and is considered a leaf. A folder serves as a parent and can hold multiple nodes. Additionally, the program was designed to support saving and loading the data structure, allowing the user to store it on their computer and resume editing later."
     ],
     "technologies": [
@@ -322,7 +322,7 @@
     "description": [
       "A set of algorithms were developed to learn the C programming language.",
       "One of the algorithms was to read a specified number of lines from a text file, given as program arguments, and display each line to the user. Another similar program was the \"tail\" program which, using program arguments, sets the number of lines to be read from the end of the text file.",
-      "The \"tokenizer\" program was also implemented. Based on a predefined location of a text file, it tokenized the text based on certain conditions. For example, special characters were ignored, integers and floats were considered separate tokens, and strings and elements enclosed in brackets were stored as strings.",
+      "The \"tokeniser\" program was also implemented. Based on a predefined location of a text file, it tokenised the text based on certain conditions. For example, special characters were ignored, integers and floats were considered separate tokens, and strings and elements enclosed in brackets were stored as strings.",
       "An algorithm to think in a recursive manner was the reversal of a given string, either using an iterative or recursive approach. The \"introspect\" program helped to understand the memory system in the C programming language, which many languages do not provide such insight into. It was observed that a given string was stored as a block of memory, with memory locations incremented by one for each character.",
       "Finally, the \"Levenshtein String Distance\" program was implemented, which calculates the minimum number of edits required to convert one string into another. This algorithm is commonly used in data structures and algorithms."
     ],

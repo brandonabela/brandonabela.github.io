@@ -5,7 +5,7 @@
     "course": "Masters in Signal Processing and Machine Learning",
     "institute": "University Of Malta",
     "location": "Msida (Malta)",
-    "description": "The Master's program concentrates on the creation and execution of signal processing and machine learning systems. Signal processing involves the utilization of mathematical techniques to extract and manipulate information from signals, and machine learning utilizes trained models to identify patterns in data.",
+    "description": "The Master's program concentrates on the creation and execution of signal processing and machine learning systems. Signal processing involves the utilisation of mathematical techniques to extract and manipulate information from signals, and machine learning utilises trained models to identify patterns in data.",
     "bullets": [],
     "technologies": [
       "Python",
@@ -25,7 +25,7 @@
     "course": "Bachelor of Science (Honours) (Computing Science)",
     "institute": "University Of Malta",
     "location": "Msida (Malta)",
-    "description": "The Computing Science Degree program emphasizes providing both scientific and practical skills to build, analyze, and sustain complex software systems.",
+    "description": "The Computing Science Degree program emphasises providing both scientific and practical skills to build, analyse, and sustain complex software systems.",
     "bullets": [],
     "technologies": [
       "HTML",
